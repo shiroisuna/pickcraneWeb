@@ -1,7 +1,11 @@
 @import "tailwindcss";
 @import "leaflet/dist/leaflet.css";
-/* Estilos obligatorios para el mapa Leaflet */
-@import 'leaflet/dist/leaflet.css';
+
+@theme {
+  --color-brand-yellow: #FFC107;
+  --color-brand-dark: #121212;
+  --color-brand-gray: #1E1E1E;
+}
 
 html, body, #root {
   height: 100%;
